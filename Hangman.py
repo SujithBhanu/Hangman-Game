@@ -50,8 +50,6 @@ while play.lower()=='yes':
             chances-=1
             print(stages[chances])
             print(f"You have guessed incorrectly! you have {chances} chances ")
-        # print(count)
-        # print(flag)
         print(st)
         for char in st:
             word_s+=char
